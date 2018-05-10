@@ -16,14 +16,14 @@ public class edad {
                     cadena_final=String.format("%s\t%s\n","edad","suma");
                     Scanner entrada=new Scanner(System.in);
                     while(contador<=5){
-                    System.out.println("Ingrese el valor de edad");
+                    System.out.println("Ingrese el valor de edad%d\n", );
                     edad=entrada.nextInt();
                     suma=suma+edad;
                     cadena_final=String.format("%s%d\t%d\n",cadena_final,edad,suma);
                     contador=contador+1;
                     }
                     System.out.printf("%s",cadena_final);
-                            
+                           
     
     }
 }
